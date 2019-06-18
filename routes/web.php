@@ -43,6 +43,10 @@ $router->post('/alipay','login\UserController@alipay');
 
 //注册
 $router->post('/regapi','login\LoginController@regapi');
+//登录
+$router->post('/loginapi','login\LoginController@loginapi');
+//首页
+$router->get('/indexapi','login\LoginController@indexapi');
 
 
 
